@@ -2,8 +2,10 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
+    "lib": ["dom", "es6"],
     "strict": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "noImplicitThis": true
   },
   "exclude": ["node_modules", "**/code"]
 }
